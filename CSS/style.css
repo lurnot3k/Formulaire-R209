@@ -1,0 +1,120 @@
+:root {
+    --input-border: #e8e8e6;
+    --input-focus-h: 245;
+    --input-focus-s: 100%;
+    --input-focus-l: 42%;
+  }
+
+body {
+    background-color: #333333;
+    font-family: sans-serif;
+}
+
+#h1formulaire {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+#division_formulaire {
+    background-color: #f5f5f5;
+    width: 40%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 4px;
+    border-radius: 3px;
+    color: #343435;
+}
+
+.champs {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.champs label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.champs input {
+    font-size: 16px;
+    font-size: max(16px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 1px solid var(--input-border);
+    border-radius: 4px;
+    max-width: auto;
+    width: 97%;
+    display: block;
+    margin: auto;
+  }
+
+::placeholder {
+    font-size: 11px;
+}
+
+.area_message {
+    font-size: 11px;
+    font-size: max(11px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 1px solid var(--input-border);
+    border-radius: 4px;
+    max-width: auto;
+    width: 97%;
+    display: block;
+    margin: auto;
+}
+
+.champs select {
+    font-size: 11px;
+    font-size: max(11px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 1px solid var(--input-border);
+    border-radius: 4px;
+    max-width: auto;
+    width: 99.5%;
+    display: block;
+    margin: auto;
+  }
+
+.choix_urgence {
+    display: flex;
+    align-items: center;
+
+}
+
+.choix_urgence * {
+    width: 70%;
+}
+
+.confidentialité {
+    margin-top: 50px;
+}
+
+#politique_confidentialité {
+    color: blue;
+    text-decoration: underline;
+}
+
+#boutton_envoyer {
+    margin-top: 30px;
+}
+
+#boutton_envoyer button {
+
+    background-color: #064282; 
+    border: none;
+    color: white;
+    padding: 10px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 5px;
+}

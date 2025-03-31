@@ -4,8 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire de Contact</title>
+    <link href="css/style.css" rel="stylesheet" />
 </head>
 <body>
-    
+    <h1 id="h1formulaire">Formulaire de contact</h1>
+    <div id="division_formulaire">
+        <div class="champs">
+            <label for="password">Votre pseudo *</label><br>
+            <input
+                type="text"
+                id="pseudo"
+                name="pseudo"
+                placeholder="Votre pseudo"
+                required
+            />
+        </div>
+        <div class="champs">
+            <label for="password">Votre Mot de passe *</label><br>
+            <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Votre mot de passe"
+                required
+            />
+        </div>
+        <div class="champs">
+            <label for="email">Votre e-mail *</label><br>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Votre adresse e-mail"
+                required
+            />
+        </div>
+        <div class="champs">
+            <label for="email">Objet du message *</label><br>
+            <select name="objet" id="">
+                <option value="question">J'ai une question</option>
+                <option value="suggestion">Je fais une suggestion</option>
+                <option value="priblème">Je rencontre un problème</option>
+                <option value="autre">Autre</option>
+            </select>
+        </div>
+        <div class="champs">
+            <label for="message">Votre message *</label><br>
+            <textarea placeholder="Votre message" class="area_message" name="textarea" rows="5" cols="100"></textarea>
+        </div>
+        <div class="champs">
+            <label for="email">Niveau d'urgence *</label><br>
+            <div class="choix_urgence">
+                <input type="radio" id="contactChoice1" name="urgent"/>
+                <label for="contactChoice1">Urgent</label>
+            
+                <input type="radio" id="contactChoice2" name="normal"/>
+                <label for="contactChoice2">Normal</label>
+            
+                <input type="radio" id="contactChoice3" name="lent"/>
+                <label for="contactChoice3">Lent</label>
+              </div>
+        </div>
+        <div class="confidentialité">
+            <input
+                type="checkbox"
+                id="confidentialité"
+                name="confidentialité"
+                value="confidentialité" />
+            <label for="confidentialité">
+                J'ai lu et j'accepte la <span id="politique_confidentialité">politique de confidentialité</span> du site
+            </label>
+        </div>
+        <div id="boutton_envoyer">
+            <button type="submit">Envoyer</button>
+          </div>
+    </div>
 </body>
 </html>
