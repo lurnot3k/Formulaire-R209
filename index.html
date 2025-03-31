@@ -41,7 +41,7 @@
         </div>
         <div class="champs">
             <label for="email">Objet du message *</label><br>
-            <select name="objet" id="">
+            <select name="objet">
                 <option value="question">J'ai une question</option>
                 <option value="suggestion">Je fais une suggestion</option>
                 <option value="priblème">Je rencontre un problème</option>
@@ -49,19 +49,19 @@
             </select>
         </div>
         <div class="champs">
-            <label for="message">Votre message *</label><br>
+            <label>Votre message *</label><br>
             <textarea placeholder="Votre message" class="area_message" name="textarea" rows="5" cols="100"></textarea>
         </div>
         <div class="champs">
             <label for="email">Niveau d'urgence *</label><br>
             <div class="choix_urgence">
-                <input type="radio" id="contactChoice1" name="urgent"/>
+                <input type="radio" id="contactChoice1" name="niveau"/>
                 <label for="contactChoice1">Urgent</label>
             
-                <input type="radio" id="contactChoice2" name="normal"/>
+                <input type="radio" id="contactChoice2" name="niveau"/>
                 <label for="contactChoice2">Normal</label>
             
-                <input type="radio" id="contactChoice3" name="lent"/>
+                <input type="radio" id="contactChoice3" name="niveau"/>
                 <label for="contactChoice3">Lent</label>
               </div>
         </div>

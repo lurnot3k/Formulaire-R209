@@ -46,7 +46,6 @@ body {
     background-color: #fff;
     border: 1px solid var(--input-border);
     border-radius: 4px;
-    max-width: auto;
     width: 97%;
     display: block;
     margin: auto;
@@ -64,7 +63,6 @@ body {
     background-color: #fff;
     border: 1px solid var(--input-border);
     border-radius: 4px;
-    max-width: auto;
     width: 97%;
     display: block;
     margin: auto;
@@ -78,7 +76,6 @@ body {
     background-color: #fff;
     border: 1px solid var(--input-border);
     border-radius: 4px;
-    max-width: auto;
     width: 99.5%;
     display: block;
     margin: auto;
